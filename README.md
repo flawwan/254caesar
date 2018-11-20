@@ -1,2 +1,2 @@
 # 254caesar
-CTF tool for shifting all ASCII characters -255 to 255 positions.
+CTF tool for shifting all ASCII characters -254 to 254 positions.
