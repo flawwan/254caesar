@@ -18,6 +18,8 @@ def do_caesar(data):
 				flag += chr(ord(pixel) + i)
 			except:
 				valueError = True
+		if valueError:
+			continue#Skip
 		if args.get:
 			if args.get == i:
 				print flag
